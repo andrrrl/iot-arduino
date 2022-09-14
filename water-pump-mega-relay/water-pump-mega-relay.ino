@@ -1,15 +1,9 @@
 // Relay
-// const int RELAY_PIN = 13;
-
-// Water Pump
-const int PUMP_PIN = 13;
+const int RELAY_PIN_PUMP = 11;
 
 void setup() {
-  // pinMode(RELAY_PIN, OUTPUT);
-  // // pinMode(RELAY_PIN, OUTPUT);
-  // pinMode(LED_PIN, OUTPUT);
 
-  pinMode(PUMP_PIN, OUTPUT);
+  pinMode(RELAY_PIN_PUMP, OUTPUT);
 
   Serial.begin(9600);
 
@@ -19,14 +13,14 @@ void loop() {
   
   Serial.println("Encender bomba de agua");
       
-  digitalWrite(PUMP_PIN, HIGH);
+  digitalWrite(RELAY_PIN_PUMP, HIGH);
 
-  delay(10000);
+  delay(1000);
 
   Serial.println("Apagar bomba de agua");
 
-  digitalWrite(PUMP_PIN, LOW);
+  digitalWrite(RELAY_PIN_PUMP, LOW);
 
-  delay(10000);
+  delay(100000);
 
 }
