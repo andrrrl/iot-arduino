@@ -1,3 +1,7 @@
+libraries
+tools
+.DS_Store
+
 # Prerequisites
 *.d
 
