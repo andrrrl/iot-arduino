@@ -116,7 +116,7 @@
 
 // STEP 3 [REQUIRED for all boards and shields]
 // replace this with your wireless network SSID
-char ssid[] = "XTRMNTR";
+char ssid[] = "";
 
 
 // STEP 4 [OPTIONAL for all boards and shields]
@@ -148,7 +148,7 @@ char ssid[] = "XTRMNTR";
 #define WIFI_WPA_SECURITY
 
 #ifdef WIFI_WPA_SECURITY
-char wpa_passphrase[] = "juanitaladel8";
+char wpa_passphrase[] = "";
 #endif  //WIFI_WPA_SECURITY
 
 
