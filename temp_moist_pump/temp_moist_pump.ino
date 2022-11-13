@@ -8,16 +8,16 @@
 
 // 1. WI-FI
 // Wi-Fi config
-const char *ssid = "XTRMNTR";
-const char *password = "juanitaladel8";
+const char *ssid = "";
+const char *password = "";
 WiFiClient espClient;
 PubSubClient client(espClient);
 
 // 2. MQTT
 // Broker
 const char *mqtt_broker = "192.168.4.54";
-const char *mqtt_username = "colorina";
-const char *mqtt_password = "colorinche7";
+const char *mqtt_username = "";
+const char *mqtt_password = "";
 const int mqtt_port = 1883;
 
 // Topics
