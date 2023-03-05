@@ -23,6 +23,7 @@ tools
 # Fortran module files
 *.mod
 *.smod
+andrrr-wifi-mqtt/wifiConfig.h
 
 # Compiled Static libraries
 *.lai
